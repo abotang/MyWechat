@@ -1,0 +1,36 @@
+test_08_queue_approve_execute_stop_without_profile (test_cli.CLITests.test_08_queue_approve_execute_stop_without_profile) ... ok
+test_07_http_contract (test_core.AITests.test_07_http_contract) ... ok
+test_07_malformed_and_rate_limit (test_core.AITests.test_07_malformed_and_rate_limit) ... ok
+test_06_approval_dry_run_never_calls_driver (test_core.CoreTests.test_06_approval_dry_run_never_calls_driver) ... ok
+test_06_cooldown_and_unknown_result_no_retry (test_core.CoreTests.test_06_cooldown_and_unknown_result_no_retry) ... ok
+test_06_crash_recovery (test_core.CoreTests.test_06_crash_recovery) ... ok
+test_06_dedupe_isolation_and_baseline (test_core.CoreTests.test_06_dedupe_isolation_and_baseline) ... ok
+test_06_duplicate_contact_titles_rejected (test_core.CoreTests.test_06_duplicate_contact_titles_rejected) ... ok
+test_06_expiry (test_core.CoreTests.test_06_expiry) ... ok
+test_06_media_approval_binds_bytes (test_core.CoreTests.test_06_media_approval_binds_bytes) ... ok
+test_06_stop_and_exclusive_lock (test_core.CoreTests.test_06_stop_and_exclusive_lock) ... ok
+test_06_whitelist_and_friend_always_needs_approval (test_core.CoreTests.test_06_whitelist_and_friend_always_needs_approval) ... ok
+test_07_agent_baseline_group_gate_and_queue (test_core.CoreTests.test_07_agent_baseline_group_gate_and_queue) ... ok
+test_07_ai_declines_and_outgoing_does_not_trigger (test_core.CoreTests.test_07_ai_declines_and_outgoing_does_not_trigger) ... ok
+test_07_ai_failure_keeps_inbox_retryable (test_core.CoreTests.test_07_ai_failure_keeps_inbox_retryable) ... ok
+test_07_virtualized_history_resync_no_duplicate_reply (test_core.CoreTests.test_07_virtualized_history_resync_no_duplicate_reply) ... ok
+test_00_uncalibrated_profile_never_accesses_desktop (test_driver.DriverTests.test_00_uncalibrated_profile_never_accesses_desktop) ... ok
+test_01_contacts_and_missing_mapping (test_driver.DriverTests.test_01_contacts_and_missing_mapping) ... ok
+test_01_duplicate_message_identity_fails (test_driver.DriverTests.test_01_duplicate_message_identity_fails) ... ok
+test_01_outgoing_marker (test_driver.DriverTests.test_01_outgoing_marker) ... ok
+test_01_read_identity_unicode_dedup (test_driver.DriverTests.test_01_read_identity_unicode_dedup) ... ok
+test_01_reject_ambiguous_and_wrong_chat (test_driver.DriverTests.test_01_reject_ambiguous_and_wrong_chat) ... ok
+test_02_send_failure_is_uncertain (test_driver.DriverTests.test_02_send_failure_is_uncertain) ... ok
+test_02_text_send_and_draft_guard (test_driver.DriverTests.test_02_text_send_and_draft_guard) ... ok
+test_03_mentions_require_group (test_driver.DriverTests.test_03_mentions_require_group) ... ok
+test_03_real_member_selection (test_driver.DriverTests.test_03_real_member_selection) ... ok
+test_04_media_missing_preview_stops (test_driver.DriverTests.test_04_media_missing_preview_stops) ... ok
+test_04_media_requires_preview (test_driver.DriverTests.test_04_media_requires_preview) ... ok
+test_05_add_friend_exact_account (test_driver.DriverTests.test_05_add_friend_exact_account) ... ok
+test_05_friend_exact_identity (test_driver.DriverTests.test_05_friend_exact_identity) ... ok
+test_00_bounded_read_only_probe (test_probe.ProbeTests.test_00_bounded_read_only_probe) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 1.168s
+
+OK

@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "calibrated": false,
+  "process_id": 0,
+  "window": {"control_type": "Window", "name": "从探测结果填写", "class_name": "从探测结果填写"},
+  "selectors": {},
+  "message": {
+    "row": {"control_type": "ListItem"},
+    "body": {"control_type": "Text", "automation_id": "填写消息正文控件ID"},
+    "sender": {"control_type": "Button", "automation_id": "填写发送者控件ID"},
+    "outgoing_marker": {"automation_id": "填写仅自己消息才有的控件ID"},
+    "id_source": "runtime_id",
+    "mention_pattern": ""
+  },
+  "friend": {}
+}
